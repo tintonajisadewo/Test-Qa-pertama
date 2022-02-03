@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login_Valid/Page_Situs Belanja Online dan Jual Beli Mud_3c8940/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.bl-flex-container.align-items-center \u003e svg.sigil-header__nav-action.sigil-arrow-down.svg-icon.svg-fill \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20220202_135807/BUKALAPAK/Regretion Test/20220202_135807/Object Repository/Login_Valid/Page_Situs Belanja Online dan Jual Beli Mud_3c8940/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Notifikasi_Login/p_User tidak ditemukan",
+      "brokenLocator": "//*[(text() \u003d \u0027\n       Akun tidak ditemukan. Periksa dan coba lagi ya.\n      \u0027 or . \u003d \u0027\n       Akun tidak ditemukan. Periksa dan coba lagi ya.\n      \u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Nomor handphone atau email\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220202_135807/BUKALAPAK/Regretion Test/20220202_135807/Object Repository/Notifikasi_Login/p_User tidak ditemukan_XPATH.png"
+    }
+  ]
+}

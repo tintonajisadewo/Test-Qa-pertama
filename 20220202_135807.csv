@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regretion Test,Chrome 97.0.4692.99,,,2022-02-02 13:58:17,2022-02-02 14:01:07,2m - 49.609s,PASSED
+,,,,,,,
+Test Cases/Login_Valid,Chrome 97.0.4692.99,,,2022-02-02 13:58:18,2022-02-02 13:59:11,53.697s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-02 13:58:18,2022-02-02 13:58:21,3.087s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/"")",Chrome 97.0.4692.99,,,2022-02-02 13:58:21,2022-02-02 13:58:29,8.067s,PASSED
+"click(findTestObject(""Object Repository/Login_Valid/Page_Situs Belanja Online dan Jual Beli Mud_3c8940/p_Login""))",Chrome 97.0.4692.99,,,2022-02-02 13:58:29,2022-02-02 13:58:34,4.429s,PASSED
+"setText(findTestObject(""Object Repository/Login_Valid/Page_Accounts/input_Nomor handphone atau email_LoginID""), ""testqatinton@gmail.com"")",Chrome 97.0.4692.99,,,2022-02-02 13:58:34,2022-02-02 13:58:37,3.476s,PASSED
+"click(findTestObject(""Object Repository/Login_Valid/Page_Accounts/span_Lanjut""))",Chrome 97.0.4692.99,,,2022-02-02 13:58:37,2022-02-02 13:58:38,0.438s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_Valid/Page_Accounts/input_Lanjut_Password""), ""7/sDHkklWiy9BTSZEhg+nw=="")",Chrome 97.0.4692.99,,,2022-02-02 13:58:38,2022-02-02 13:58:39,0.773s,PASSED
+"click(findTestObject(""Object Repository/Login_Valid/Page_Accounts/button_Login""))",Chrome 97.0.4692.99,,,2022-02-02 13:58:39,2022-02-02 13:58:39,0.402s,PASSED
+"click(findTestObject(""Object Repository/Login_Valid/Page_Situs Belanja Online dan Jual Beli Mud_3c8940/path""))",Chrome 97.0.4692.99,,,2022-02-02 13:58:39,2022-02-02 13:59:11,31.673s,PASSED
+takeScreenshot(),Chrome 97.0.4692.99,,,2022-02-02 13:59:11,2022-02-02 13:59:11,0.805s,PASSED
+,,,,,,,
+Test Cases/Bukalapak/Login_Invalid/Email_Email,Chrome 97.0.4692.99,,,2022-02-02 13:59:11,2022-02-02 14:00:02,50.931s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-02 13:59:12,2022-02-02 13:59:15,2.690s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/"")",Chrome 97.0.4692.99,,,2022-02-02 13:59:15,2022-02-02 13:59:22,7.603s,PASSED
+"click(findTestObject(""Object Repository/Login_Valid/Page_Situs Belanja Online dan Jual Beli Mud_3c8940/p_Login""))",Chrome 97.0.4692.99,,,2022-02-02 13:59:22,2022-02-02 13:59:27,4.494s,PASSED
+"setText(findTestObject(""Object Repository/Login_Valid/Page_Accounts/input_Nomor handphone atau email_LoginID""), ""Email"")",Chrome 97.0.4692.99,,,2022-02-02 13:59:27,2022-02-02 13:59:30,3.059s,PASSED
+"click(findTestObject(""Object Repository/Login_Valid/Page_Accounts/span_Lanjut""))",Chrome 97.0.4692.99,,,2022-02-02 13:59:30,2022-02-02 13:59:30,0.475s,PASSED
+"verifyElementText(findTestObject(""Notifikasi_Login/p_User tidak ditemukan""), ""Akun tidak ditemukan. Periksa dan coba lagi ya."")",Chrome 97.0.4692.99,,,2022-02-02 13:59:30,2022-02-02 14:00:02,31.749s,PASSED
+takeScreenshot(),Chrome 97.0.4692.99,,,2022-02-02 14:00:02,2022-02-02 14:00:02,0.407s,PASSED
+,,,,,,,
+Test Cases/Bukalapak/Login_Invalid/Email_Null,Chrome 97.0.4692.99,,,2022-02-02 14:00:02,2022-02-02 14:00:24,21.429s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-02 14:00:03,2022-02-02 14:00:05,2.639s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/"")",Chrome 97.0.4692.99,,,2022-02-02 14:00:05,2022-02-02 14:00:13,7.606s,PASSED
+"click(findTestObject(""Object Repository/Login_Valid/Page_Situs Belanja Online dan Jual Beli Mud_3c8940/p_Login""))",Chrome 97.0.4692.99,,,2022-02-02 14:00:13,2022-02-02 14:00:19,6.331s,PASSED
+"setText(findTestObject(""Object Repository/Login_Valid/Page_Accounts/input_Nomor handphone atau email_LoginID""), """")",Chrome 97.0.4692.99,,,2022-02-02 14:00:19,2022-02-02 14:00:22,3.112s,PASSED
+"click(findTestObject(""Object Repository/Login_Valid/Page_Accounts/span_Lanjut""))",Chrome 97.0.4692.99,,,2022-02-02 14:00:22,2022-02-02 14:00:23,0.427s,PASSED
+"verifyElementText(findTestObject(""Notifikasi_Login/p_Form harus diisi dulu ya""), ""Form harus diisi dulu ya"")",Chrome 97.0.4692.99,,,2022-02-02 14:00:23,2022-02-02 14:00:23,0.477s,PASSED
+takeScreenshot(),Chrome 97.0.4692.99,,,2022-02-02 14:00:23,2022-02-02 14:00:24,0.437s,PASSED
+,,,,,,,
+Test Cases/Bukalapak/Login_Invalid/Pwd_Salah,Chrome 97.0.4692.99,,,2022-02-02 14:00:24,2022-02-02 14:00:46,21.965s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-02 14:00:24,2022-02-02 14:00:27,2.772s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/"")",Chrome 97.0.4692.99,,,2022-02-02 14:00:27,2022-02-02 14:00:35,7.555s,PASSED
+"click(findTestObject(""Object Repository/Login_Valid/Page_Situs Belanja Online dan Jual Beli Mud_3c8940/p_Login""))",Chrome 97.0.4692.99,,,2022-02-02 14:00:35,2022-02-02 14:00:40,5.517s,PASSED
+"setText(findTestObject(""Object Repository/Login_Valid/Page_Accounts/input_Nomor handphone atau email_LoginID""), ""testqatinton@gmail.com"")",Chrome 97.0.4692.99,,,2022-02-02 14:00:40,2022-02-02 14:00:43,2.947s,PASSED
+"click(findTestObject(""Object Repository/Login_Valid/Page_Accounts/span_Lanjut""))",Chrome 97.0.4692.99,,,2022-02-02 14:00:43,2022-02-02 14:00:43,0.452s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_Valid/Page_Accounts/input_Lanjut_Password""), ""tzH6RvlfSTg="")",Chrome 97.0.4692.99,,,2022-02-02 14:00:43,2022-02-02 14:00:44,0.726s,PASSED
+"click(findTestObject(""Login_Valid/Page_Accounts/button_Login""))",Chrome 97.0.4692.99,,,2022-02-02 14:00:44,2022-02-02 14:00:45,0.412s,PASSED
+"verifyElementText(findTestObject(""Notifikasi_Login/p_Password yang kamu masukkan salah. Silakan coba lagi""), ""Password yang kamu masukkan salah. Silakan coba lagi."")",Chrome 97.0.4692.99,,,2022-02-02 14:00:45,2022-02-02 14:00:45,0.817s,PASSED
+takeScreenshot(),Chrome 97.0.4692.99,,,2022-02-02 14:00:45,2022-02-02 14:00:46,0.375s,PASSED
+,,,,,,,
+Test Cases/Bukalapak/Login_Invalid/pwd_null,Chrome 97.0.4692.99,,,2022-02-02 14:00:46,2022-02-02 14:01:07,21.166s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-02 14:00:46,2022-02-02 14:00:49,2.563s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/"")",Chrome 97.0.4692.99,,,2022-02-02 14:00:49,2022-02-02 14:00:57,8.029s,PASSED
+"click(findTestObject(""Object Repository/Login_Valid/Page_Situs Belanja Online dan Jual Beli Mud_3c8940/p_Login""))",Chrome 97.0.4692.99,,,2022-02-02 14:00:57,2022-02-02 14:01:01,4.358s,PASSED
+"setText(findTestObject(""Object Repository/Login_Valid/Page_Accounts/input_Nomor handphone atau email_LoginID""), ""testqatinton@gmail.com"")",Chrome 97.0.4692.99,,,2022-02-02 14:01:01,2022-02-02 14:01:04,3.137s,PASSED
+"click(findTestObject(""Object Repository/Login_Valid/Page_Accounts/span_Lanjut""))",Chrome 97.0.4692.99,,,2022-02-02 14:01:04,2022-02-02 14:01:05,0.439s,PASSED
+"setText(findTestObject(""Object Repository/Login_Valid/Page_Accounts/input_Lanjut_Password""), """")",Chrome 97.0.4692.99,,,2022-02-02 14:01:05,2022-02-02 14:01:06,0.976s,PASSED
+"click(findTestObject(""Login_Valid/Page_Accounts/button_Login""))",Chrome 97.0.4692.99,,,2022-02-02 14:01:06,2022-02-02 14:01:06,0.399s,PASSED
+"verifyElementText(findTestObject(""Notifikasi_Login/p_Password wajib diisi, ya""), ""Password wajib diisi, ya."")",Chrome 97.0.4692.99,,,2022-02-02 14:01:06,2022-02-02 14:01:07,0.475s,PASSED
+takeScreenshot(),Chrome 97.0.4692.99,,,2022-02-02 14:01:07,2022-02-02 14:01:07,0.383s,PASSED
